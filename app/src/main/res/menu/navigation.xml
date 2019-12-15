@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/pagi"
+        android:title="Dzikir Pagi"
+        android:icon="@drawable/sunrise" />
+    <item android:id="@+id/sore"
+        android:title="Dzikir Sore"
+        android:icon="@drawable/sunset" />
+    <item android:id="@+id/quiz"
+        android:title="Quiz"
+        android:icon="@drawable/qmark" />
+    <item android:id="@+id/surat"
+        android:title="Surat"
+        android:icon="@drawable/qmark" />
+</menu>
