@@ -32,11 +32,24 @@ public class Surat extends Fragment {
         View view = inflater.inflate(R.layout.fragment_surat,
                 container, false);
         Button buttonSurah1 = view.findViewById(R.id.buttonSurah1);
+        Button buttonSurah2 = view.findViewById(R.id.buttonSurah2);
+
         buttonSurah1.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getActivity(), SuratActivity.class);
+                intent.putExtra("nama-surat","Al-Fatihah");
+                startActivity(intent);
+            }
+        });
+
+        buttonSurah2.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), SuratActivity.class);
+                intent.putExtra("nama-surat","Al-Kafirun");
                 startActivity(intent);
             }
         });

@@ -90,7 +90,16 @@ public class SuratActivity extends AppCompatActivity {
     }
 
     private Query getQuery(DatabaseReference mDatabase) {
-        Query query = mDatabase.child("quran").child("surah").child("surah-1");
+        Query query = null;
+
+        if (getIntent().getStringExtra("nama-surat").equals("Al-Fatihah"))
+        {
+            query = mDatabase.child("quran").child("surah").child("surah-1");
+        }
+        else if(getIntent().getStringExtra("nama-surat").equals("Al-Kafirun"))
+        {
+            query = mDatabase.child("quran").child("surah").child("surah-109");
+        }
         return query;
     }
 }
