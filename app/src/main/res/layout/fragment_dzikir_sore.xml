@@ -22,7 +22,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
                 android:text="[1] Isti'adzah"
-                android:textColor="@color/colorWhite"
+                android:textColor="@color/black"
                 android:textSize="10dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -33,7 +33,7 @@
                 android:layout_height="wrap_content"
                 android:text="( Dibaca 1x )"
                 android:textAlignment="center"
-                android:textColor="@color/colorWhite"
+                android:textColor="@color/black"
                 android:textSize="10dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/judul1" />
@@ -45,7 +45,7 @@
                 android:layout_marginTop="15dp"
                 android:text="أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ"
                 android:textAlignment="center"
-                android:textColor="@color/colorWhite"
+                android:textColor="@color/black"
                 android:textSize="15dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/jumlah1" />
@@ -57,7 +57,7 @@
                 android:layout_marginTop="10dp"
                 android:text="“Aku berlindung kepada Allah dari godaan syaitan yang terkutuk.“َِ"
                 android:textAlignment="center"
-                android:textColor="@color/colorWhite"
+                android:textColor="@color/black"
                 android:textSize="10dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/arab1" />

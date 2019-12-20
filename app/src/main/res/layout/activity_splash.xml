@@ -23,7 +23,7 @@
     <ImageView
         android:layout_width="160dp"
         android:layout_height="194dp"
-        android:src="@drawable/book"
+        android:src="@drawable/mosq"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
