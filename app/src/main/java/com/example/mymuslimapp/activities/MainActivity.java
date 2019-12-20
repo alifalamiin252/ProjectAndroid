@@ -1,4 +1,4 @@
-package com.example.mymuslimapp;
+package com.example.mymuslimapp.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,6 +9,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+
+import com.example.mymuslimapp.R;
+import com.example.mymuslimapp.fragment.Surat;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.example.mymuslimapp.fragment.DzikirPagi;
 import com.example.mymuslimapp.fragment.DzikirSore;

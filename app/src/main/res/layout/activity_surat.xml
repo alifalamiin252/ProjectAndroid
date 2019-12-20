@@ -4,18 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment.Surat">
+    tools:context=".activities.SuratActivity">
 
-    <Button
-        android:id="@+id/buttonSurah1"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list_surat"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Surat Al-Fatihah"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginTop="100dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginEnd="30dp"
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

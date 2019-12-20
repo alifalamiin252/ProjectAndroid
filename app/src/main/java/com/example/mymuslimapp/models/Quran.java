@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Quran {
-    String arab, indo;
+    public String arab, indo;
 
     public Quran() {
     }

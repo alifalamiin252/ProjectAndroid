@@ -9,19 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Quran"></activity>
-        <activity android:name=".QuranDAO" />
-        <activity android:name=".Item" />
-        <activity android:name=".DBHelper" />
-        <activity android:name=".WelcomeActivity" />
-        <activity android:name=".SplashActivity">
+        <activity android:name=".activities.SuratActivity"></activity>
+        <activity android:name=".activities.WelcomeActivity" />
+        <activity android:name=".activities.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name=".activities.MainActivity" />
     </application>
 
 </manifest>

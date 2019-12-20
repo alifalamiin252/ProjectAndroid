@@ -1,4 +1,4 @@
-package com.example.mymuslimapp;
+package com.example.mymuslimapp.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.PagerAdapter;
