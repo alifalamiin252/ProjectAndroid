@@ -15,7 +15,7 @@
         <ImageView
             android:layout_width="160dp"
             android:layout_height="194dp"
-            android:src="@drawable/welcome"/>
+            android:src="@drawable/welkom"/>
 
         <TextView
             android:id="@+id/txtArtiLabel"
@@ -23,15 +23,6 @@
             android:layout_height="wrap_content"
             android:text="SELAMAT DATANG!"
             android:textSize="20dp"
-            android:textAlignment="center"
-            android:textColor="@color/black"/>
-
-        <TextView
-            android:id="@+id/txteaLabel"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Dzikir Pagi dan Sore Sesuai Sunnah Nabi Muhammad Shalallahu 'Alaihi Wasallam"
-            android:textSize="15dp"
             android:textAlignment="center"
             android:textColor="@color/black"/>
 

@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment.Surat">
+    tools:context=".fragment.Surat"
+    android:background="#A4A4A4">
 
     <Button
         android:id="@+id/buttonSurah1"
